@@ -1,0 +1,7 @@
+about_python_dl:
+  image: psygrammer/about_python_dl:0.1
+  ports:
+    - "8888:8888"
+  volumes:
+    - ../:/home/jovyan/work/about_python_dl
+  tty: true
